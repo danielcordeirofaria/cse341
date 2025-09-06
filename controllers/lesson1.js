@@ -2,21 +2,26 @@ const danielFaria = (req, res) => {
     res.send("Daniel Faria");
 };
 
-const LucianaPoppi = (req, res) => {
+const lucianaPoppi = (req, res) => {
     res.send("Luciana Poppi");
 };
 
-const BeatrizPoppi = (req, res) => {
+const beatrizPoppi = (req, res) => {
     res.send("Beatriz Poppi");
 };
 
-const JuliePoppi = (req, res) => {
+const juliePoppi = (req, res) => {
     res.send("Julie Poppi");
 };
 
+const welcome = (req, res) => {
+    res.send("Welcome to the CSE341 API");
+}
+
 module.exports = {
     danielFaria,
-    LucianaPoppi,
-    BeatrizPoppi,
-    JuliePoppi
+    lucianaPoppi,
+    beatrizPoppi,
+    juliePoppi,
+    welcome
 };
